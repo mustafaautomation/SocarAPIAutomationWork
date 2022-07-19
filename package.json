@@ -1,0 +1,36 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "coverageDirectory": "reports/my_reports/",
+    "testRunner": "jest-jasmine2",
+    "globalTeardown": "./test-teardown-globals.js",
+    "coverageReporters": [
+      "html",
+      "text"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "scripts": {
+    "test": "jest --reporters default jest-stare --coverage --detectOpenHandles --runInBand --testTimeout=60000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "jest": "^27.4.7",
+    "jest-serial-runner": "^1.2.0",
+    "jest-stare": "^2.3.0",
+    "supertest": "^6.2.0"
+  }
+}

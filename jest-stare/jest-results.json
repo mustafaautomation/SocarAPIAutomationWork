@@ -1,0 +1,216 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 6,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 6,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1658189198756,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1658189206011,
+        "runtime": 7158,
+        "slow": true,
+        "start": 1658189198853
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/mustafahameed/SocarAPIAutomationWork/__test__/apiTests.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Users test",
+            "POST"
+          ],
+          "duration": 971,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Users test POST /users",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/users"
+        },
+        {
+          "ancestorTitles": [
+            "Users test",
+            "GET"
+          ],
+          "duration": 578,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Users test GET /Users",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/Users"
+        },
+        {
+          "ancestorTitles": [
+            "Users test",
+            "GET"
+          ],
+          "duration": 894,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Users test GET /Users:id",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/Users:id"
+        },
+        {
+          "ancestorTitles": [
+            "Users test",
+            "GET"
+          ],
+          "duration": 1109,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Users test GET Users?ender=female&page=5&status=active",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Users?ender=female&page=5&status=active"
+        },
+        {
+          "ancestorTitles": [
+            "Users test",
+            "PUT"
+          ],
+          "duration": 741,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Users test PUT Put /users  update data",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Put /users  update data"
+        },
+        {
+          "ancestorTitles": [
+            "Users test",
+            "DELETE"
+          ],
+          "duration": 601,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Users test DELETE Delete /user",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Delete /user"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {
+    "/Users/mustafahameed/SocarAPIAutomationWork/base.js": {
+      "path": "/Users/mustafahameed/SocarAPIAutomationWork/base.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 16
+          },
+          "end": {
+            "line": 1,
+            "column": 36
+          }
+        },
+        "1": {
+          "start": {
+            "line": 2,
+            "column": 12
+          },
+          "end": {
+            "line": 2,
+            "column": 38
+          }
+        },
+        "2": {
+          "start": {
+            "line": 3,
+            "column": 16
+          },
+          "end": {
+            "line": 3,
+            "column": 59
+          }
+        },
+        "3": {
+          "start": {
+            "line": 5,
+            "column": 16
+          },
+          "end": {
+            "line": 5,
+            "column": 82
+          }
+        },
+        "4": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 12,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "0c143f0da6bf5fb9d27708a888160934240ec57a"
+    }
+  }
+}
